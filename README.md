@@ -7,7 +7,7 @@ JavaScript code for build signed transaction and generating wallet and address
 const xels = require('/src');
 ```
 ### Create wallet randomly
-call getWallet method of address object without passing any parameter for generating address and private key randomly
+Call getWallet method of address object without passing any parameter for generating address and private key randomly
 ```javascript
  let wallet1 = xels.address.getWalelt() //random
  console.log('Wallet(Random)',wallet1);
