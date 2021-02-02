@@ -34,7 +34,7 @@ let FEE = 10000; // in satoshi
 let send_amount1 = 12*100000000; // in satoshi
 ```
 
-### Adding a input.You can call this addInput method multiple times for multiple input
+### Adding a input object.You can call this addInput method multiple times by object for multiple input or passing a array of object for multiple inputs
 ```javascript
 txobj.addInput(utxos);
 ```
