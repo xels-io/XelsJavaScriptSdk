@@ -8,3 +8,6 @@ exports.Transaction = XelsTransaction;
 
 const HD = require('./hd-wallets');
 exports.HD = HD;
+
+const { XelsNode } = require('./xels-node')
+exports.XelsNode = XelsNode;

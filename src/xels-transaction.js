@@ -14,7 +14,7 @@ class XelsTransaction {
       else inputs.push(utxo);;
       for(let i=0;i<inputs.length;i++){
         let input = inputs[i];
-        if(!input.txid || !input.satoshi || !input.index) throw 'Incorrect format of UTXO (Required txid,index and satoshi in input object)';
+        if(!('txid' in input) || !('satoshi' in input) || !('index' in input)) throw 'Incorrect format of UTXO (Required txid,index and satoshi in input object)';
         this.tx.vins.push({
           txid: Buffer.from(input.txid, 'hex'),
           vout: input.index,
