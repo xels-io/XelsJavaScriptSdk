@@ -75,7 +75,7 @@ Signing all inputs by sender's private key.Call signInput method of Transaction 
 txobj.signInput(private_key);
 ```
 ### Get hex 
-call toHex method of Transaction object for getting transction hexa string 
+Call toHex method of Transaction object for getting transction hexa string 
 ```javascript
 let hex = txobj.toHex() // Need to publish this transaction hex
 
