@@ -1,4 +1,5 @@
-const secp256k1 = require('secp256k1');
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });const secp256k1 = require('secp256k1');
 const { hash160 } = require('./crypto');
 const utils = require('./xels-utils');
 

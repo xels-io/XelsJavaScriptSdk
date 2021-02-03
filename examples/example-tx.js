@@ -31,7 +31,7 @@ if(change_amount<0){
 }
 
 if(change_amount>0){
-    txobj.addChange('XHYHDKzvc395ww59FYd83sRmCKyq2UEM7H',change_amount-FEE)
+    txobj.addChange('XHYHDKzvc395ww59FYd83sRmCKyq2UEM7H',change_amount)
 }
 
 

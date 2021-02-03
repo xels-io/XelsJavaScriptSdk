@@ -62,7 +62,7 @@ if(change_amount<0){
 }
 
 if(change_amount>0){
-    txobj.addChange(chaneg_address,change_amount-FEE)
+    txobj.addChange(chaneg_address,change_amount)
 }
 
 ```

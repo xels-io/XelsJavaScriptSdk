@@ -1,3 +1,5 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
 const {sha256} = require('./crypto');
 const createHash = require("create-hash");
 const ec = require("elliptic").ec;

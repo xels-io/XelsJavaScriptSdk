@@ -1,3 +1,5 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
 const bip39 = require("bip39");
 const hdkey = require("hdkey");
 const createHash = require("create-hash");

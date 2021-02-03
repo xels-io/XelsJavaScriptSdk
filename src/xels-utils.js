@@ -1,3 +1,5 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
 const OPS = require('bitcoin-ops');
 const secp256k1 = require('secp256k1');
 const { sha256, hash160 } = require('./crypto');
